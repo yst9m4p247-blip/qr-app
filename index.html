@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Check</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563eb">
+</head>
+
+<body>
+<div class="app">
+    <div class="header">
+        <div class="title">Check In / Out</div>
+        <div class="user">V25083002 - Sơn Nguyễn</div>
+    </div>
+
+    <div id="time" class="time"></div>
+
+    <div class="qr-box">
+        <canvas id="qrcode"></canvas>
+    </div>
+
+    <div class="status" id="status">QR hợp lệ trong 30s</div>
+
+    <button onclick="refreshQR()" class="btn">
+        🔄 Làm mới
+    </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

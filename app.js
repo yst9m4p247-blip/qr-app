@@ -8,8 +8,6 @@ function generateQR() {
     const encoded = btoa(raw);
 
     QRCode.toCanvas(document.getElementById("qrcode"), encoded);
-
-    document.getElementById("status").innerText = "QR hợp lệ trong 30s";
 }
 
 setInterval(() => {

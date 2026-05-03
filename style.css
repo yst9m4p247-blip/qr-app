@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #0f172a;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.app {
+    max-width: 420px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.user {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.time {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.qr-box {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.status {
+    text-align: center;
+    margin: 10px;
+    color: #22c55e;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background: #2563eb;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+}
